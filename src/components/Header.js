@@ -1,18 +1,18 @@
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import profilePhoto from "../Profile-Photo-Ben-Cha.jpg"
+import "./Header.css";
 
 export default function Header() {
   return (
-    <nav className="navbar navbar-expand-sm">
+    <nav className="navbar navbar-expand-md" style={{ padding: "0 10%" }}>
       <div className="container-md">
-        <NavLink to="/" className="navbar-brand fw-semibold fs-2 me-0">
+        <NavLink to="/" className="navbar-brand fw-semibold fs-1 me-0">
           <img
             src={profilePhoto}
             alt="Ben Cha Profile Photo"
             className="d-inline-block align-text-top me-2"
-            width="40"
-            height="40"
+            width="50"
+            height="50"
             style={{borderRadius: "50%"}}
           ></img>
           Ben Cha
@@ -28,10 +28,10 @@ export default function Header() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
-          <div className="navbar-nav fs-4">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+          <div className="navbar-nav fs-3">
             <NavLink 
-              to="/" 
+              to="/about" 
               className={({ isActive }) => isActive ? "nav-link active mx-2" : "nav-link mx-2"}
             >
               About
