@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.home-container {
+
+  background-image: linear-gradient(rgba(32, 178, 170, 0.8), white);
+}
+
+.row {
+ height: 80vh; 
+}
+
+.home-img {
+  border-radius: 30%;
+}
+
+p {
+  font-size: 2.25rem;
+  line-height: 200%;
+  color: white;
+  text-shadow: 1px 1px 2px darkgray;
+}
+
+.name {
+  font-family: "Merriweather", sans-serif;
+  font-size: 3.5rem;
+  color: navy;
+  text-shadow: 2px 2px 4px white;
+}
+
+@keyframes wave {
+  0%    {transform: rotate(0deg);}
+  25%   {transform: rotate(90deg);}
+  50%   {transform: rotate(-45deg);}
+  75%   {transform: rotate(90deg);}
+  100%  {transform: rotate(-45deg);}
+}
+
+.hand {
+  display: inline-block;
+}
+
+.hand:hover {
+  display: inline-block;
+  animation-name: wave;
+  animation-duration: 0.75s;
+}
+
+@keyframes growth {
+  0%    {font-size: 1rem;}
+  100%  {font-size: 3rem;}
+}
+
+.grow {
+  font-size: 3rem;
+  display: inline-block;
+  vertical-align: top;
+  animation-name: growth;
+  animation-duration: 3s;
+}

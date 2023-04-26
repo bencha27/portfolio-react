@@ -4,7 +4,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <nav className="navbar navbar-expand-md" style={{ padding: "0 10%" }}>
+    <nav className="navbar navbar-expand-md" >
       <div className="container-md">
         <NavLink to="/" className="navbar-brand fw-semibold fs-1 me-0">
           <img
