@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
+
 .navbar-brand, .nav-link {
   color: navy;
   transition: all 0.3s;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
 
 .navbar-brand:hover, .nav-link:hover {

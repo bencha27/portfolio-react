@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
+
+.about-container {
+  background-image: linear-gradient(rgba(32, 178, 170, 0.5), rgba(32, 178, 170, 0));
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about-heading {
+  border-right: 4px solid navy;
+  padding-right: 2rem;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: navy;
+  text-shadow: 1px 1px 1px white;
+}
+
+.about-section {
+  padding-left: 1.5rem;
+}
+
+.about-section-heading, .skills-section-heading {
+  font-family: "Merriweather", serif;
+  color: white;
+  text-shadow: 1px 1px 1px darkgray;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+}
+
+.about-section li {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  color: black;
+  text-shadow: 1px 1px 2px white;
+}
+
+.skills-section {
+  border-left: 4px solid navy;
+  padding-left: 1.5rem;
+}
+
+.skills-section-subheading {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.skills-section li {
+  font-family: "Raleway", sans-serif;
+}
