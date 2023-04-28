@@ -3,7 +3,6 @@
 .about-container {
   background-image: linear-gradient(rgba(32, 178, 170, 0.5), rgba(32, 178, 170, 0));
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .about-heading {
@@ -30,7 +29,7 @@ h1 {
 
 ul {
   list-style-type: none;
-  padding: 0 1rem;
+  padding: 0;
   padding-bottom: 1rem;
 }
 
@@ -39,6 +38,13 @@ ul {
   font-size: 1.25rem;
   color: black;
   text-shadow: 1px 1px 2px white;
+  padding-bottom: 0.35rem;
+}
+
+.about-section img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
 }
 
 .skills-section {
@@ -53,4 +59,15 @@ ul {
 
 .skills-section li {
   font-family: "Raleway", sans-serif;
+  color: black;
+  text-shadow: 1px 1px 2px white;
+  display: inline-block;
+  font-size: 1.25rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.skills-section img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
 }
