@@ -24,17 +24,17 @@ import restapiLogo from "../images/REST-API-Logo.png";
 
 export default function About() {
   return (
-    <div className="container-fluid about-container">
+    <div className="container-fluid page-container">
       <div className="row">
         {/* Heading */}
-        <div className="about-heading col-2 text-end">
+        <div className="page-heading col-2 text-end">
           <h1>About</h1>
           <h1>Me</h1>
         </div>
 
         {/* Experience, Education, Miscellaneous */}
         <div className="about-section col-7">
-          <h3 className="about-section-heading">Experience</h3>
+          <h3>Experience</h3>
             <ul className="experience-list">
               <li>
                 💻 Completed 12-week intensive focused on full stack web development
@@ -64,44 +64,44 @@ export default function About() {
           <h3 className="about-section-heading">Miscellaneous</h3>
             <ul>
               <li>
-                ⭐️ Organization • Problem-solving • Detail • Professional • Collaborative
+                ⭐️ Organized ● Detailed ● Problem-solver ● Professional ● Collaborative
               </li>
               <li>
                 📍 Seoul, Korea ➡️ Los Angeles ➡️ San Francisco Bay Area ➡️ Colorado
               </li>
               <li>
-                💙 Family 👨‍👩‍👧‍👦 • Cooking 🍝 • Gardening 🪴 • Reading 📖
+                💙 Family 👨‍👩‍👧‍👦 Cooking 🍝 Gardening 🪴 Reading 📖
               </li>
             </ul>
         </div>
 
         {/* Skills */}
         <div className="skills-section col-3">
-          <h3 className="skills-section-heading">Skills</h3>
+          <h3>Skills</h3>
           <h5 className="skills-section-subheading">Front-End</h5>
           <ul>
-            <li><img src={htmlLogo} alt="HTML5 Logo"></img>HTML5</li>
-            <li><img src={cssLogo} alt="CSS3 Logo"></img>CSS3</li>
-            <li><img src={jsLogo} alt="JS ES6 Logo"></img>JavaScript ES6</li>
-            <li><img src={jqueryLogo} alt="jQuery Logo"></img>jQuery</li>
-            <li><img src={bootstrapLogo} alt="Bootstrap Logo"></img>Bootstrap</li>
-            <li><img src={reactLogo} alt="React Logo"></img>React</li>
-            <li><img src={webpackLogo} alt="Webpack Logo"></img>Webpack</li>
-            <li><img src={handlebarsLogo} alt="Handlebars Logo"></img>Handlebars</li>
-            <li><img src={pwaLogo} alt="PWA Logo"></img>Progressive Web Apps</li>
+            <li><img className="logo" src={htmlLogo} alt="HTML5 Logo"></img>HTML5</li>
+            <li><img className="logo" src={cssLogo} alt="CSS3 Logo"></img>CSS3</li>
+            <li><img className="logo" src={jsLogo} alt="JS ES6 Logo"></img>JavaScript ES6</li>
+            <li><img className="logo" src={jqueryLogo} alt="jQuery Logo"></img>jQuery</li>
+            <li><img className="logo" src={bootstrapLogo} alt="Bootstrap Logo"></img>Bootstrap</li>
+            <li><img className="logo" src={reactLogo} alt="React Logo"></img>React</li>
+            <li><img className="logo" src={webpackLogo} alt="Webpack Logo"></img>Webpack</li>
+            <li><img className="logo" src={handlebarsLogo} alt="Handlebars Logo"></img>Handlebars</li>
+            <li><img className="logo" src={pwaLogo} alt="PWA Logo"></img>Progressive Web Apps</li>
           </ul>
           <h5 className="skills-section-subheading">Back-End</h5>
           <ul>
-            <li><img src={nodeLogo} alt="Node Logo"></img>Node</li>
-            <li><img src={expressLogo} alt="Express Logo"></img>Express</li>
-            <li><img src={restapiLogo} alt="REST API Logo"></img>REST API</li>
-            <li><img src={mysqlLogo} alt="MySQL Logo"></img>MySQL</li>
-            <li><img src={mongodbLogo} alt="MongoDB Logo"></img>MongoDB</li>
-            <li><img src={graphqlLogo} alt="GraphQL Logo"></img>GraphQL</li>
-            <li><img src={mernLogo} alt="MERN Logo"></img>MERN Stack</li>
-            <li><img src={jestLogo} alt="Jest Logo"></img>Jest</li>
-            <li><img src={oopLogo} alt="OOP Logo"></img>Object-Oriented Programming</li>
-            <li><img src={mvcLogo} alt="MVC Logo"></img>Model-View-Controller Architecture</li>
+            <li><img className="logo" src={nodeLogo} alt="Node Logo"></img>Node</li>
+            <li><img className="logo" src={expressLogo} alt="Express Logo"></img>Express</li>
+            <li><img className="logo" src={mysqlLogo} alt="MySQL Logo"></img>MySQL</li>
+            <li><img className="logo" src={mongodbLogo} alt="MongoDB Logo"></img>MongoDB</li>
+            <li><img className="logo" src={graphqlLogo} alt="GraphQL Logo"></img>GraphQL</li>
+            <li><img className="logo" src={jestLogo} alt="Jest Logo"></img>Jest</li>
+            <li><img className="logo" src={mernLogo} alt="MERN Logo" id="mern-logo"></img>MERN Stack</li>
+            <li><img className="logo" src={restapiLogo} alt="REST API Logo"></img>REST API</li>
+            <li><img className="logo" src={oopLogo} alt="OOP Logo"></img>OOP (Object-Oriented Programming)</li>
+            <li><img className="logo" src={mvcLogo} alt="MVC Logo"></img>MVC (Model-View-Controller)</li>
           </ul>
         </div>
       </div>

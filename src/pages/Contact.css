@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
+
+.form-section {
+  padding: 0 1.5rem;
+}
+
+label {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  color: black;
+  text-shadow: 1px 1px 2px white;
+}
+
+input, textarea {
+  font-family: "Raleway", sans-serif;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.125rem lightseagreen;
+}
+
+.btn {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: navy;
+  color: white;
+}
+
+.btn:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+
+.links-section {
+  border-left: 4px solid navy;
+  padding-left: 1.5rem;
+}
+
+h3, h5 {
+  font-family: "Merriweather", serif;
+  color: white;
+  text-shadow: 1px 1px 1px darkgray;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: white;
+}
+
+.links-list {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  font-size: 1.75rem;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.links-list .logo {
+  width: 35px;
+  height: 35px;
+  margin-right: 1rem;
+}
+
+.links-list a {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  vertical-align: middle;
+  background-color: navy;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+}
+
+.links-list a:hover {
+  background-color: lightseagreen;
+}
+
+
+.button-link {
+  display: block;
+  margin: 1rem 0;
+}
+

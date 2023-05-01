@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <nav className="navbar navbar-expand-md" >
       <div className="container-md">
-        <NavLink to="/" className="navbar-brand fw-semibold fs-1 me-0">
+        <NavLink to="/" className={({ isActive }) => isActive ? "navbar-brand active fw-semibold fs-1 me-0" : "navbar-brand fw-semibold fs-1 me-0"}>
           <img
             src={profilePhoto}
             alt="Ben Cha Profile Photo"

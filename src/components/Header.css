@@ -7,7 +7,15 @@
   font-weight: bold;
 }
 
+.navbar-brand.active {
+  color: lightseagreen;
+}
+
 .navbar-brand:hover, .nav-link:hover {
   color: lightseagreen;
   transition: all 0.3s;
+}
+
+.navbar-nav .nav-link.active {
+  color: lightseagreen;
 }

@@ -4,10 +4,6 @@
   background-image: linear-gradient(rgba(32, 178, 170, 0.8), white);
 }
 
-.row {
- height: 80vh; 
-}
-
 .home-img {
   border-radius: 30%;
 }
