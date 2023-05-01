@@ -48,12 +48,6 @@ export default function Header() {
             >
               Contact
             </NavLink>
-            <NavLink 
-              to="/resume" 
-              className={({ isActive }) => isActive ? "nav-link active mx-2" : "nav-link mx-2"}
-            >
-              Resume
-            </NavLink>
           </div>
         </div>
       </div>

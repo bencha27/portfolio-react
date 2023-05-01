@@ -62,6 +62,13 @@ export default function Contact() {
                 LinkedIn
               </NavLink>
             </li>
+
+            <li className="links-list">
+              <span className="icon">📄 </span>
+              <NavLink to="https://drive.google.com/file/d/1Y4SHBwy60f_RzMC3k5x1aQr8C9ua84Fe/view?usp=share_link" target="_blank">
+                Resume
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
