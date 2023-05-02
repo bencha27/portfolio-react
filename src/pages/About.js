@@ -37,28 +37,28 @@ export default function About() {
           <h3>Experience</h3>
             <ul className="experience-list">
               <li>
-                💻 Completed 12-week intensive focused on full stack web development
+                💻 Completed intensive full stack web development boot camp
               </li>
               <li>
-                👨🏻‍🏫 Supported 100s of students as a science educator for 7 years
+                👨🏻‍🏫 Taught & managed 100s of students as a science educator for 7 years
               </li>
               <li>
-                🚀 Looking to launch my career as a software engineer
+                🚀 Launching new career as a software engineer
               </li>
             </ul>
           <h3 className="about-section-heading">Education</h3>
             <ul>
               <li>
                 <img src={denverShield} alt="University of Denver Shield"></img>
-                Full Stack Coding Boot Camp • University of Denver
+                Full Stack Coding Boot Camp ● University of Denver
               </li>
               <li>
                 <img src={alliantShield} alt="Alliant International University Shield"></img>
-                M.A. Education • Alliant International University
+                M.A. Education ● Alliant International University
               </li>
               <li>
                 <img src={berkeleyShield} alt="University of California, Berkeley Shield"></img>
-                B.A. Political Economy • University of California, Berkeley
+                B.A. Political Economy ● University of California, Berkeley
               </li>
             </ul>
           <h3 className="about-section-heading">Miscellaneous</h3>

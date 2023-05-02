@@ -43,11 +43,11 @@ p {
 
 @keyframes growth {
   0%    {font-size: 1rem;}
-  50%  {font-size: 3rem;}
+  50%  {font-size: 4rem;}
 }
 
 .grow {
-  font-size: 3rem;
+  font-size: 4rem;
   display: inline-block;
   vertical-align: top;
   animation-name: growth;

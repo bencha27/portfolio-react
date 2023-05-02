@@ -1,9 +1,53 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { send } from "@emailjs/browser";
 import "./Contact.css";
 import githubLogo from "../images/GitHub-Logo.png";
 import linkedinLogo from "../images/LinkedIn-Logo.png";
 
 export default function Contact() {
+  const [input, setInput] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setInput({
+      ...input,
+      [name]: value,
+    });
+  }
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(input);
+
+    // EmailJS service
+    send(
+      "portfolio_contact_serv",
+      "portfolio_contact_form",
+      input,
+      "RNjDbyUQJlsrDkJVv"
+    )
+    .then((response) => {
+      console.log("Success!", response.status, response.text);
+    })
+    .catch((error) => {
+      console.log("Failed...", error);
+    });
+
+    alert("Thanks for contacting me! I will get in touch with you shortly. 🙂");
+
+    setInput({
+      name: "",
+      email: "",
+      message: "",
+    });
+  }
+
   return (
     <div className="container-fluid page-container">
       <div className="row">
@@ -16,22 +60,22 @@ export default function Contact() {
         {/* Form */}
         <div className="form-section col-5">
           <h3>Contact Form</h3>
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <label for="input-name" className="form-label">Name</label>
-              <input type="text" className="form-control" id="input-name" placeholder="">
+              <input type="text" name="name" value={input.name} className="form-control" id="input-name" onChange={handleChange} required>
               </input>
             </div>
 
             <div className="mb-3">
               <label for="input-email" className="form-label">Email</label>
-              <input type="email" className="form-control" id="input-email">
+              <input type="email" name="email" value={input.email} className="form-control" id="input-email" onChange={handleChange} required>
               </input>
             </div>
 
             <div className="mb-3">
               <label for="textarea-message" className="form-label">Message</label>
-              <textarea className="form-control" id="textarea-message" rows={7}></textarea>
+              <textarea name="message" value={input.message} className="form-control" id="textarea-message" rows={7} onChange={handleChange} required></textarea>
             </div>
 
             <button type="submit" className="btn">Submit</button>
