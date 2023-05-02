@@ -28,14 +28,13 @@ export default function About() {
       <div className="row">
         {/* Heading */}
         <div className="page-heading col-2 text-end">
-          <h1>About</h1>
-          <h1>Me</h1>
+          <h1>About Me</h1>
         </div>
 
         {/* Experience, Education, Miscellaneous */}
         <div className="about-section col-7">
           <h3>Experience</h3>
-            <ul className="experience-list">
+            <ul>
               <li>
                 💻 Completed intensive full stack web development boot camp
               </li>

@@ -3,10 +3,7 @@
 .page-container {
   background-image: linear-gradient(rgba(32, 178, 170, 0.5), rgba(32, 178, 170, 0));
   padding-top: 2rem;
-}
-
-.row {
-  height: 80vh; 
+  min-height: 80vh; 
 }
 
 h1 {

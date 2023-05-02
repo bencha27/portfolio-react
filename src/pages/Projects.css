@@ -1,0 +1,31 @@
+.projects-section .row {
+  padding: 1rem 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  padding-bottom: 1rem;
+}
+
+.projects-section a {
+  color: navy;
+  text-decoration: none;
+}
+
+.projects-section a:hover {
+  color: lightseagreen;
+}
+
+.projects-section li {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  color: black;
+  text-shadow: 1px 1px 2px white;
+  padding-bottom: 0.35rem;
+}
+
+#project-tech {
+  color: dimgray;
+}
+

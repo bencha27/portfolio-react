@@ -53,8 +53,7 @@ export default function Contact() {
       <div className="row">
         {/* Heading */}
         <div className="page-heading col-2 text-end">
-          <h1>Contact</h1>
-          <h1>Me</h1>
+          <h1>Contact Me</h1>
         </div>
 
         {/* Form */}
