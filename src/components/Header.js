@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <nav className="navbar navbar-expand-md" >
       <div className="container-md">
-        <NavLink to="/" className={({ isActive }) => isActive ? "navbar-brand active fw-semibold fs-1 me-0" : "navbar-brand fw-semibold fs-1 me-0"}>
+        <NavLink to="/Portfolio-React/" className={({ isActive }) => isActive ? "navbar-brand active fw-semibold fs-1 me-0" : "navbar-brand fw-semibold fs-1 me-0"}>
           <img
             src={profilePhoto}
             alt="Ben Cha Profile Photo"
@@ -31,19 +31,19 @@ export default function Header() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
           <div className="navbar-nav fs-3">
             <NavLink 
-              to="/about" 
+              to="/Portfolio-React/about" 
               className={({ isActive }) => isActive ? "nav-link active mx-2" : "nav-link mx-2"}
             >
               About
             </NavLink>
             <NavLink 
-              to="/projects" 
+              to="/Portfolio-React/projects" 
               className={({ isActive }) => isActive ? "nav-link active mx-2" : "nav-link mx-2"}
             >
               Projects
             </NavLink>
             <NavLink 
-              to="/contact" 
+              to="/Portfolio-React/contact" 
               className={({ isActive }) => isActive ? "nav-link active mx-2" : "nav-link mx-2"}
             >
               Contact
