@@ -2,6 +2,10 @@
   padding: 1rem 0;
 }
 
+.project-screenshot {
+  padding-left: 2rem;
+}
+
 ul {
   list-style-type: none;
   padding: 0;

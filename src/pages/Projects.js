@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom";
 import "./Projects.css";
+import virtualBookClubScreenshot from "../images/Screenshot-Virtual-Book-Club.png";
+import guardianGuideScreenshot from "../images/Screenshot-Guardian-Guide.png";
+import prepUrselfScreenshot from "../images/Screenshot-prepUrself.png";
 import githubLogo from "../images/GitHub-Logo.png";
 
 export default function Projects() {
@@ -14,8 +17,11 @@ export default function Projects() {
         {/* Projects */}
         <div className="projects-section col-10">
           <div className="row">
-            <div className="col-5">
-            </div>
+            <img
+              className="col-6 project-screenshot"
+              src={virtualBookClubScreenshot}
+              alt="Screenshot of Virtual Book Club app"
+            ></img>
             <div className="col-5">
               <h3><NavLink to="https://radiant-lowlands-09888.herokuapp.com/" target="_blank">Virtual Book Club</NavLink></h3>
               <ul className="project-description-list">
@@ -27,8 +33,11 @@ export default function Projects() {
           </div>
 
           <div className="row">
-            <div className="col-5">
-            </div>
+            <img
+                className="col-6 project-screenshot"
+                src={guardianGuideScreenshot}
+                alt="Screenshot of Guardian Guide app"
+              ></img>
             <div className="col-5">
               <h3><NavLink to="https://guardian-guide-1222.herokuapp.com" target="_blank">Guardian Guide</NavLink></h3>
               <ul className="project-description-list">
@@ -40,8 +49,11 @@ export default function Projects() {
           </div>
 
           <div className="row">
-            <div className="col-5">
-            </div>
+            <img
+                className="col-6 project-screenshot"
+                src={prepUrselfScreenshot}
+                alt="Screenshot of prepUrself app"
+              ></img>
             <div className="col-5">
               <h3><NavLink to="https://bencha27.github.io/prepUrself" target="_blank">prepUrself</NavLink></h3>
               <ul className="project-description-list">

@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
 
 .page-container {
-  background-image: linear-gradient(rgba(32, 178, 170, 0.5), rgba(32, 178, 170, 0));
+  background-image: linear-gradient(rgba(32, 178, 170, 0.5), white);
   padding-top: 2rem;
-  min-height: 80vh; 
+  padding-bottom: 2rem;
+  min-height: 80vh;
 }
 
 h1 {
