@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { send } from "@emailjs/browser";
 import "./Contact.css";
 import githubLogo from "../images/GitHub-Logo.png";
@@ -87,30 +87,30 @@ export default function Contact() {
           <ul>
             <li className="links-list">
               <span className="icon">✉️ </span>
-              <NavLink to="mailto:mrbenjamincha@gmail.com" target="_blank">
+              <Link to="mailto:mrbenjamincha@gmail.com" target="_blank">
                 mrbenjamincha@gmail.com
-              </NavLink>
+              </Link>
             </li>
             
             <li className="links-list">
               <img className="logo" src={githubLogo} alt="GitHub Logo"></img>
-              <NavLink to="https://github.com/bencha27" target="_blank">
+              <Link to="https://github.com/bencha27" target="_blank">
                 GitHub (bencha27)
-              </NavLink>
+              </Link>
             </li>
 
             <li className="links-list">
               <img className="logo" src={linkedinLogo} alt="LinkedIn Logo"></img>
-              <NavLink to="https://www.linkedin.com/in/benjamin-cha/" target="_blank">
+              <Link to="https://www.linkedin.com/in/benjamin-cha/" target="_blank">
                 LinkedIn
-              </NavLink>
+              </Link>
             </li>
 
             <li className="links-list">
               <span className="icon">📄 </span>
-              <NavLink to="https://drive.google.com/file/d/1Y4SHBwy60f_RzMC3k5x1aQr8C9ua84Fe/view?usp=share_link" target="_blank">
+              <Link to="https://drive.google.com/file/d/1Y4SHBwy60f_RzMC3k5x1aQr8C9ua84Fe/view?usp=share_link" target="_blank">
                 Resume
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </div>
