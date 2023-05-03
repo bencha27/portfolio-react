@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d18a619a.css",
+    "main.js": "/static/js/main.ee49d9c5.js",
+    "static/media/Screenshot-prepUrself.png": "/static/media/Screenshot-prepUrself.a32c222d94612cc57a26.png",
+    "static/media/Jest-Logo.png": "/static/media/Jest-Logo.95bffbbd80a3ba10dfa4.png",
+    "static/media/React-Logo.png": "/static/media/React-Logo.81ed438b18e24116794d.png",
+    "static/media/University-of-California-Berkeley-Shield.png": "/static/media/University-of-California-Berkeley-Shield.f9ffbd2a136bd1c784f9.png",
+    "static/media/University-of-Denver-Shield.png": "/static/media/University-of-Denver-Shield.125547370735e8a197a0.png",
+    "static/media/GraphQL-Logo.png": "/static/media/GraphQL-Logo.fc6b9451733c620ceb86.png",
+    "static/media/Webpack-Logo.png": "/static/media/Webpack-Logo.47692505d122dbcae490.png",
+    "static/media/Bootstrap-Logo.png": "/static/media/Bootstrap-Logo.a692f04a045f8133192d.png",
+    "static/media/Screenshot-Guardian-Guide.png": "/static/media/Screenshot-Guardian-Guide.ac78d5225290d61a63fc.png",
+    "static/media/MERN-Stack-Logo.png": "/static/media/MERN-Stack-Logo.bad4b598a62c9837e5ae.png",
+    "static/media/Screenshot-Virtual-Book-Club.png": "/static/media/Screenshot-Virtual-Book-Club.a66808a8b93ea42c190d.png",
+    "static/media/Alliant-International-University-Shield.png": "/static/media/Alliant-International-University-Shield.e43a039fb6a42d783c55.png",
+    "static/media/MySQL-Logo.png": "/static/media/MySQL-Logo.6046e30924075f801444.png",
+    "static/media/Profile-Photo-Ben-Cha.jpg": "/static/media/Profile-Photo-Ben-Cha.35f4b03295bb03bead4f.jpg",
+    "static/media/PWA-Logo.png": "/static/media/PWA-Logo.30c94113dab1d7bc6110.png",
+    "static/media/jQuery-Logo.png": "/static/media/jQuery-Logo.c11922b1ecfb7603ab0e.png",
+    "static/media/CSS3-Logo.png": "/static/media/CSS3-Logo.4e67641bb68b658d9b2b.png",
+    "static/media/MVC-Logo.png": "/static/media/MVC-Logo.1b6c332161ee6644d4d3.png",
+    "static/media/MongoDB-Logo.png": "/static/media/MongoDB-Logo.b39cf73b380b8bc5b270.png",
+    "static/media/Handlebars-Logo.png": "/static/media/Handlebars-Logo.8271b7f43c286aaa454f.png",
+    "static/media/GitHub-Logo.png": "/static/media/GitHub-Logo.bc99536d1e2557611f18.png",
+    "static/media/LinkedIn-Logo.png": "/static/media/LinkedIn-Logo.7f1251299ab8e189bb92.png",
+    "static/media/JavaScript-ES6-Logo.jpg": "/static/media/JavaScript-ES6-Logo.367a9e42dfd590582718.jpg",
+    "static/media/HTML5-Logo.png": "/static/media/HTML5-Logo.e79f80c36ce3ba0d9b5b.png",
+    "static/media/REST-API-Logo.png": "/static/media/REST-API-Logo.9da0840422c149d06855.png",
+    "static/media/OOP-Logo.png": "/static/media/OOP-Logo.c21267039e141131142a.png",
+    "index.html": "/index.html",
+    "main.d18a619a.css.map": "/static/css/main.d18a619a.css.map",
+    "main.ee49d9c5.js.map": "/static/js/main.ee49d9c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d18a619a.css",
+    "static/js/main.ee49d9c5.js"
+  ]
+}
