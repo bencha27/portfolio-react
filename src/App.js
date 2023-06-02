@@ -19,6 +19,7 @@ export default function App() {
         <Route path="/Portfolio-React/about" element={<About />} />
         <Route path="/Portfolio-React/projects" element={<Projects />} />
         <Route path="/Portfolio-React/contact" element={<Contact />} />
+        <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
     </Router>
