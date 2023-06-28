@@ -108,7 +108,7 @@ export default function Contact() {
 
             <li className="links-list">
               <span className="icon">📄 </span>
-              <Link to="https://drive.google.com/file/d/16-j8sk_hbwZxORQEk-763xgA25-NYKoU/view?usp=sharing" target="_blank">
+              <Link to="https://drive.google.com/file/d/1-9oqgEsPdrifBrIA6YuasQLqCQVa7kNK/view?usp=sharing" target="_blank">
                 Resume
               </Link>
             </li>
