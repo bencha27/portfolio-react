@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,9 +16,9 @@ import Contact from "./pages/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "portfolio",
+    path: "/",
     element: <App />,
     children: [
       {
