@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ea8d4342.css",
-    "main.js": "/portfolio/static/js/main.fb95dda2.js",
+    "main.css": "/portfolio/static/css/main.1cf12d0b.css",
+    "main.js": "/portfolio/static/js/main.c14aae01.js",
     "static/media/Screenshot-prepUrself.png": "/portfolio/static/media/Screenshot-prepUrself.a32c222d94612cc57a26.png",
     "static/media/Jest-Logo.png": "/portfolio/static/media/Jest-Logo.95bffbbd80a3ba10dfa4.png",
     "static/media/React-Logo.png": "/portfolio/static/media/React-Logo.81ed438b18e24116794d.png",
@@ -19,6 +19,7 @@
     "static/media/PWA-Logo.png": "/portfolio/static/media/PWA-Logo.30c94113dab1d7bc6110.png",
     "static/media/jQuery-Logo.png": "/portfolio/static/media/jQuery-Logo.c11922b1ecfb7603ab0e.png",
     "static/media/CSS3-Logo.png": "/portfolio/static/media/CSS3-Logo.4e67641bb68b658d9b2b.png",
+    "static/media/screenshot-basic-calculator.png": "/portfolio/static/media/screenshot-basic-calculator.389e53c2d35235d4f559.png",
     "static/media/MVC-Logo.png": "/portfolio/static/media/MVC-Logo.1b6c332161ee6644d4d3.png",
     "static/media/MongoDB-Logo.png": "/portfolio/static/media/MongoDB-Logo.b39cf73b380b8bc5b270.png",
     "static/media/Handlebars-Logo.png": "/portfolio/static/media/Handlebars-Logo.8271b7f43c286aaa454f.png",
@@ -29,11 +30,11 @@
     "static/media/REST-API-Logo.png": "/portfolio/static/media/REST-API-Logo.9da0840422c149d06855.png",
     "static/media/OOP-Logo.png": "/portfolio/static/media/OOP-Logo.c21267039e141131142a.png",
     "index.html": "/portfolio/index.html",
-    "main.ea8d4342.css.map": "/portfolio/static/css/main.ea8d4342.css.map",
-    "main.fb95dda2.js.map": "/portfolio/static/js/main.fb95dda2.js.map"
+    "main.1cf12d0b.css.map": "/portfolio/static/css/main.1cf12d0b.css.map",
+    "main.c14aae01.js.map": "/portfolio/static/js/main.c14aae01.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea8d4342.css",
-    "static/js/main.fb95dda2.js"
+    "static/css/main.1cf12d0b.css",
+    "static/js/main.c14aae01.js"
   ]
 }
