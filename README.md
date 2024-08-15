@@ -12,6 +12,5 @@ In my portfolio, you will find:
 
 ## Questions
 
-https://bencha27.github.io/portfolio/\
 If you have any questions, please contact me at [mrbenjamincha@gmail.com](mailto:mrbenjamincha@gmail.com).\
 [GitHub](https://github.com/bencha27)
