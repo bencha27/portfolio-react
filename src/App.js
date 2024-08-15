@@ -15,10 +15,10 @@ export default function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/Portfolio-React/" element={<Home />} />
-        <Route path="/Portfolio-React/about" element={<About />} />
-        <Route path="/Portfolio-React/projects" element={<Projects />} />
-        <Route path="/Portfolio-React/contact" element={<Contact />} />
+        <Route path="/portfolio/" element={<Home />} />
+        <Route path="/portfolio/about" element={<About />} />
+        <Route path="/portfolio/projects" element={<Projects />} />
+        <Route path="/portfolio/contact" element={<Contact />} />
         <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
