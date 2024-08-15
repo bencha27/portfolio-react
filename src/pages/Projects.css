@@ -4,6 +4,11 @@
 
 .project-screenshot {
   padding-left: 2rem;
+  max-height: 16rem;
+  max-width: 30rem;
+  display: block;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 ul {

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import { NavLink } from "react-router-dom";
 import profilePhoto from "../Profile-Photo-Ben-Cha.jpg"
 import "./Header.css";

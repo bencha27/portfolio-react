@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Projects.css";
+import basicCalculatorScreenshot from "../images/screenshot-basic-calculator.png";
 import virtualBookClubScreenshot from "../images/Screenshot-Virtual-Book-Club.png";
 import guardianGuideScreenshot from "../images/Screenshot-Guardian-Guide.png";
 import prepUrselfScreenshot from "../images/Screenshot-prepUrself.png";
@@ -17,11 +18,40 @@ export default function Projects() {
         {/* Projects */}
         <div className="projects-section col-10">
           <div className="row">
-            <img
-              className="col-6 project-screenshot"
-              src={virtualBookClubScreenshot}
-              alt="Screenshot of Virtual Book Club app"
-            ></img>
+            <div className="col-6">
+              <img
+                className="project-screenshot"
+                src={basicCalculatorScreenshot}
+                alt="Screenshot of Basic Calculator app"
+              ></img>
+            </div>
+            <div className="col-5">
+              <h3>
+                <Link to="https://bencha27.github.io/basic-calculator/" target="_blank">
+                  Basic Calculator
+                </Link>
+              </h3>
+              <ul className="project-description-list">
+                <li>A simple four-function calculator with some helpful features</li>
+                <li id="project-tech">🛠 HTML5, CSS3, JavaScript ES6, React</li>
+                <li>
+                  <Link to="https://github.com/bencha27/basic-calculator" target="_blank">
+                    <img className="logo" src={githubLogo} alt="GitHub Logo"></img>
+                    GitHub repo link
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-6">
+              <img
+                className="project-screenshot"
+                src={virtualBookClubScreenshot}
+                alt="Screenshot of Virtual Book Club app"
+              ></img>
+            </div>
             <div className="col-5">
               <h3>
                 <Link to="https://radiant-lowlands-09888.herokuapp.com/" target="_blank">
@@ -42,11 +72,13 @@ export default function Projects() {
           </div>
 
           <div className="row">
-            <img
-                className="col-6 project-screenshot"
-                src={guardianGuideScreenshot}
-                alt="Screenshot of Guardian Guide app"
-              ></img>
+            <div className="col-6">
+              <img
+                  className="project-screenshot"
+                  src={guardianGuideScreenshot}
+                  alt="Screenshot of Guardian Guide app"
+                ></img>
+            </div>
             <div className="col-5">
               <h3>
                 <Link to="https://guardian-guide-1222.herokuapp.com" target="_blank">
@@ -67,11 +99,13 @@ export default function Projects() {
           </div>
 
           <div className="row">
-            <img
-                className="col-6 project-screenshot"
-                src={prepUrselfScreenshot}
-                alt="Screenshot of prepUrself app"
-              ></img>
+            <div className="col-6">
+              <img
+                  className="project-screenshot"
+                  src={prepUrselfScreenshot}
+                  alt="Screenshot of prepUrself app"
+                ></img>
+            </div>
             <div className="col-5">
               <h3>
                 <Link to="https://bencha27.github.io/prepUrself" target="_blank">
