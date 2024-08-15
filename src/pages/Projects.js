@@ -54,7 +54,7 @@ export default function Projects() {
             </div>
             <div className="col-5">
               <h3>
-                <Link to="https://radiant-lowlands-09888.herokuapp.com/" target="_blank">
+                <Link to="https://virtual-book-club.herokuapp.com/" target="_blank">
                   Virtual Book Club
                 </Link>
               </h3>
